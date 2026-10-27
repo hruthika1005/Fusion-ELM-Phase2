@@ -1,10 +1,12 @@
+from django.utils import timezone
+
+from modules.directory.contracts import get_users
+
 from ..domain.state_machine import (
     LeaveRequestState,
     LeaveRequestStateMachine,
 )
 from ..models import LeaveCancellationRequest, LeaveExtensionRequest, LeaveRequest, LeaveResumption
-from django.utils import timezone
-from modules.directory.contracts import get_users
 
 
 def create_leave_request(

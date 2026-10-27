@@ -15,14 +15,13 @@ from ..services.leave_requests import (
     decide_leave_resumption,
     reject_leave_request,
     replace_substitute,
-    respond_to_substitute_request,
     request_leave_cancellation,
     request_leave_extension,
+    respond_to_substitute_request,
     submit_leave_resumption,
     withdraw_leave_request,
 )
 from .serializers import LeaveRequestSerializer
-
 
 MODULE = HasModuleGrant("elm")
 

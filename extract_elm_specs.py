@@ -1,6 +1,8 @@
 from pathlib import Path
+
 from docx import Document
 from openpyxl import load_workbook
+
 folder = Path.home() / "Downloads" / "ELM-Specs"
 terms = ("unit head", "deputy registrar", "registrar", "leave administrator", "designation", "approval", "sanction", "substitute", "role", "director", "dean", "permission", "leave type", "entitlement", "overlap")
 if not folder.exists():

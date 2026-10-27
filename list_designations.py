@@ -1,4 +1,5 @@
 ﻿from django.db import connections
+
 for alias in connections:
     try:
         with connections[alias].cursor() as c:

@@ -3,8 +3,7 @@ import datetime
 from django.core.exceptions import ValidationError
 from django.test import TestCase
 
-from modules.elm.models import LeaveRequest
-from modules.elm.models import Holiday, HolidayCalendar
+from modules.elm.models import Holiday, HolidayCalendar, LeaveRequest
 from modules.elm.services.leave_requests import create_leave_request
 
 

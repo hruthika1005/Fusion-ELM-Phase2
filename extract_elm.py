@@ -1,4 +1,6 @@
-﻿import glob, os
+﻿import glob
+import os
+
 from docx import Document
 from openpyxl import load_workbook
 

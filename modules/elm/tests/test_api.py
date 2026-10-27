@@ -11,7 +11,6 @@ from modules.elm.services.leave_requests import (
     respond_to_substitute_request,
 )
 
-
 pytestmark = pytest.mark.django_db
 
 

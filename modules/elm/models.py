@@ -2,7 +2,6 @@ from django.core.exceptions import ValidationError
 from django.db import models
 from django.db.models import Q
 
-
 HALF_DAY_SESSION_CHOICES = (
     ("first", "First half"),
     ("second", "Second half"),

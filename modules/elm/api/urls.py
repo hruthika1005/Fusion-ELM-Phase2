@@ -1,18 +1,18 @@
 from django.urls import path
 
 from .views import (
-    LeaveRequestDecisionView,
     LeaveCancellationDecisionView,
     LeaveExtensionDecisionView,
-    LeaveResumptionDecisionView,
     LeaveRequestCancellationView,
-    LeaveRequestExtensionView,
-    LeaveRequestResumptionView,
+    LeaveRequestDecisionView,
     LeaveRequestDetailView,
+    LeaveRequestExtensionView,
     LeaveRequestListView,
     LeaveRequestReplaceSubstituteView,
+    LeaveRequestResumptionView,
     LeaveRequestSubstituteResponseView,
     LeaveRequestWithdrawView,
+    LeaveResumptionDecisionView,
 )
 
 urlpatterns = [
